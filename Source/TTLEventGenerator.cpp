@@ -20,13 +20,13 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "ProcessorPlugin.h"
+#include "TTLEventGenerator.h"
 
-#include "ProcessorPluginEditor.h"
+#include "TTLEventGeneratorEditor.h"
 
 
 ProcessorPlugin::ProcessorPlugin()
-    : GenericProcessor("Plugin Name")
+    : GenericProcessor("TTL Event Generator")
 {
 
 }
